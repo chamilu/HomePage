@@ -1,0 +1,24 @@
+{
+  "name": "chamiludayanga.com",
+  "version": "1.0.0",
+  "description": "my home page",
+  "main": "index.js",
+  "dependencies": {
+    "hapi": "~15.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netgeeker/HomePage.git"
+  },
+  "author": "chamilmcom@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netgeeker/HomePage/issues"
+  },
+  "homepage": "https://github.com/netgeeker/HomePage#readme"
+}
