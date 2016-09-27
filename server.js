@@ -34,5 +34,4 @@ server.start((err) => {
     }
 
     console.log('server is running', server.info.uri);
-    console.log(Path.join(__dirname, 'public'))
 });
