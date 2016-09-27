@@ -16,5 +16,13 @@
   ],
   "dependencies": {
     "font-awesome": "fontawesome#^4.6.3"
+    },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ]
+    }
   }
+  
 }
