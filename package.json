@@ -5,18 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "hapi": "~15.0.3",
-    "inert": "^4.0.2",
-    "mkdirp": "^0.5.1",
-    "rimraf": "^2.5.4",
-    "wiredep": "^4.0.0"
+    "inert": "^4.0.2"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "node ./scripts/prebuild.js",
-    "build": "node ./scripts/build.js",
-    "postbuild": "node ./scripts/postbuild.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
