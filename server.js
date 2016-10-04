@@ -4,6 +4,8 @@ const Hapi = require('hapi');
 const Inert = require('inert');
 const Path = require('path');
 
+var port = process.env.PORT || 2500;
+
 const server = new Hapi.Server({
     connections: {
         routes: {
@@ -14,9 +16,8 @@ const server = new Hapi.Server({
     }
 });
 
-console.log(process.env.PORT)
 
-server.connection({port: process.env.PORT || 2500});
+server.connection({port: port});
 server.register(Inert, () => {});
 
 server.route({
