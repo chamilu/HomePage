@@ -1,0 +1,24 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2ecc71;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.description {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.name {
+  color: #ffffff;
+}
+
+.description,
+a,
+a:visited {
+  color: #ffffff;
+  font-size: 17px;
+}
