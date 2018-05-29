@@ -1,41 +1,11 @@
-'use strict';
+const Path = require("path");
+const express = require("express");
+const app = express();
 
-const Hapi = require('hapi');
-const Inert = require('inert');
-const Path = require('path');
+const port = process.env.PORT || 2000;
 
-var port = process.env.PORT || 2500;
+app.use(express.static(Path.resolve(__dirname, "./app")));
 
-const server = new Hapi.Server({
-    connections: {
-        routes: {
-            files: {
-                relativeTo: Path.join(__dirname, 'app')
-            }
-        }
-    }
-});
-
-
-server.connection({port: port});
-server.register(Inert, () => {});
-
-server.route({
-    method: 'GET',
-    path: '/{param*}',
-    handler: {
-        directory: {
-            path: '.',
-            redirectToSlash: true,
-            index: true
-        }
-    }
-});
-
-server.start((err) => {
-    if(err){
-        throw err;
-    }
-
-    console.log('server is running', server.info.uri);
+app.listen(port, () => {
+  console.log(`server is running on http://localhost:${port}`);
 });
