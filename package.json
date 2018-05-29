@@ -6,11 +6,6 @@
   "dependencies": {
     "express": "^4.16.3"
   },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-htmlmin": "^2.0.0",
-    "grunt-contrib-uglify": "^2.0.0"
-  },
   "scripts": {
     "start": "node server.js"
   },
@@ -23,9 +18,5 @@
   "bugs": {
     "url": "https://github.com/netgeeker/HomePage/issues"
   },
-  "homepage": "https://github.com/netgeeker/HomePage#readme",
-  "appData": {
-    "src": "app",
-    "dist": "public"
-  }
+  "homepage": "https://github.com/netgeeker/HomePage#readme"
 }
