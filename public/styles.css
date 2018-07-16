@@ -44,11 +44,11 @@ a:visited {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  -webkit-animation: marginAnimation 0.5s forwards;
-  -moz-animation: marginAnimation 0.5s forwards;
-  -ms-animation: marginAnimation 0.5s forwards;
-  animation: marginAnimation 0.5s forwards;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
+  -webkit-animation: marginAnimation 0.7s forwards;
+  -moz-animation: marginAnimation 0.7s forwards;
+  -ms-animation: marginAnimation 0.7s forwards;
+  animation: marginAnimation 0.7s forwards;
 }
 .url-list a:hover {
   border-bottom: 2px solid #fff;
