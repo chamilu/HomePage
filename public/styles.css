@@ -32,7 +32,7 @@ a:visited {
     margin: 0 7px;
   }
   to {
-    margin: 0 12px;
+    margin: 0 10px;
   }
 }
 
@@ -42,8 +42,12 @@ a:visited {
   border-bottom: 2px solid transparent;
   padding-bottom: 3px;
   -webkit-transition: all 0.3s ease;
-  -webkit-animation: marginAnimation 1s forwards;
-  animation: marginAnimation 1s forwards;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-animation: marginAnimation 0.5s forwards;
+  -moz-animation: marginAnimation 0.5s forwards;
+  -ms-animation: marginAnimation 0.5s forwards;
+  animation: marginAnimation 0.5s forwards;
   transition: all 0.4s ease;
 }
 .url-list a:hover {
