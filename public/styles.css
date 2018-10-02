@@ -49,6 +49,10 @@ a:visited {
   -moz-animation: marginAnimation 0.7s forwards;
   -ms-animation: marginAnimation 0.7s forwards;
   animation: marginAnimation 0.7s forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
 }
 .url-list a:hover {
   border-bottom: 2px solid #fff;
